@@ -67,10 +67,29 @@
     </header>
 
     <!-- Menu Container -->
-    <div class="container-fluid bg-black text-white py-5 display-4">
-      <div>
-        <h1></h1>
-        <div></div>
+    <div class="container-fluid bg-black text-white py-5 display-4" id="menu">
+      <div class="container">
+        <h1 class="text-center display-2 mb-5">THE MENU</h1>
+        <div class="text-center border border-dark">
+          <div class="d-flex">
+            <a
+            href=""
+            onclick="openMenu(event, 'Sushi');"
+            class="col-4 tablink p-3 hover-red"
+          >Sushi
+          <a
+          href=""
+          onclick="openMenu(event, 'Dinner');"
+          class="col-4 tablink p-3 hover-red"
+        >Dinner
+        <a
+        href=""
+        onclick="openMenu(event, 'Seasonal');"
+        class="col-4 tablink p-3 hover-red"
+      >Seasonal
+          </a>
+          </div>
+        </div>
       </div>
     </div>
   </body>
