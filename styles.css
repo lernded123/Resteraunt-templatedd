@@ -35,3 +35,9 @@ h6 {
     display: none;
   }
 }
+
+/*Custom styles for Header */
+
+.bg-img {
+  background-image: url("assets/jakub-dziubak-iOHJKJqO6E0-unsplash.jpg");
+}
