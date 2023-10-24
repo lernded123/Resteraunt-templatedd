@@ -11,4 +11,7 @@ function openMenu(event, menuName) {
   }
 
   document.getElementById(menuName).style.display = "block";
+  event.currentTarget.classList.add("active-tab");
 }
+
+document.getElementById("mainLink").click();

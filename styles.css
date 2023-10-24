@@ -50,3 +50,50 @@ h6 {
   /* pixels hardcodeded */
   min-width: 250px;
 }
+
+.btn.hover-btn:hover {
+  background-color: lightgrey;
+  color: black;
+  text-decoration: underline;
+}
+
+/* custom styles for Menu Box */
+
+.bg-black {
+  background-color: black;
+}
+
+.hover-red:hover {
+  background-color: rgba(255, green, blue, 0.5);
+  color: white;
+}
+
+.active-tab {
+  background-color: red;
+  color: white;
+}
+
+.border-dark {
+  border-color: dark-grey;
+}
+
+.badge {
+  padding: 0.6em 0.8em;
+}
+
+.small-tag {
+  padding: 0.3em 0.3em;
+}
+
+.bg-red {
+  background-color: red;
+  color: white;
+}
+
+.bg-grey {
+  background-color: grey;
+}
+
+.menu h1 {
+  color: black;
+}

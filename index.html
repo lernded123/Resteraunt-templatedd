@@ -73,17 +73,17 @@
         <div class="text-center border border-dark">
           <div class="d-flex">
             <a
-            href=""
+            href="javascript:void(0)"
             onclick="openMenu(event, 'Sushi');"
-            class="col-4 tablink p-3 hover-red"
+            class="col-4 tablink p-3 hover-red" id="mainLink"
           >Sushi
           <a
-          href=""
+          href="javascript:void(0)"
           onclick="openMenu(event, 'Dinner');"
           class="col-4 tablink p-3 hover-red"
         >Dinner
         <a
-        href=""
+        href="javascript:void(0)"
         onclick="openMenu(event, 'Seasonal');"
         class="col-4 tablink p-3 hover-red"
       >Seasonal
@@ -117,7 +117,7 @@
         <div id="Seasonal" class="container-fluid menu p-4 bg-white">
             <!-- Sushi combination   $15 -->
             <div class="d-flex justify-content-between align-items baseline">
-                <h1 class="mb-0 display-3"><b>Chef's Seasonal Sushi Combination</b><span class="badge bg-dark text-white">Seasonal</span></h1>
+                <h1 class="mb-0 display-3"><b>Chef's Seasonal Sushi Combination</b><span class="badge bg-dark text-white small-tag">Seasonal</span></h1>
                 <span class="badge bg-dark text-white">$75</span>
             </div>
             <p class="text-muted">Something</p>
@@ -127,5 +127,44 @@
 
       </div>
     </div>
+
+    <!-- About Container -->
+
+    <div class="container-fluid py-5 text-white" style="background-color: darkslateblue;" id="About">
+        <div class="container">
+            <h1 class="text-center display-2 mb-3">ABOUT</h1>
+            <h1 class="display-4"><b>Opening Hours</b></h1>
+            <div class="row fs-2">
+                <div class="col-6">
+                   <p> Sunday – Thursday: 5-10pm (dinner)</p>
+                   
+                </div>
+                <div class="col-6">
+                    <p> Friday – Saturday: 5-11pm (dinner)</p>
+                </div>
+            </div>
+
+            <h1 class="display-4"><b>History</b></h1>
+            <p class="fs-2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+            <div class="row">
+                <div class="col-lg-3 col-med-4 col-sm-12">
+                   <p class="fs-2"><b>The Chef?</b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ullam expedita assumenda tenetur, sit veniam! Dicta dolor, blanditiis totam quos doloremque, magni tenetur harum modi repellat, quisquam maxime autem quidem.</p> 
+
+                </div>
+                <div class="col-lg-3 col-med-4 col-sm-12"></div>
+                <img src="assets/thomas-marban-EHK-EH1SRzQ-unsplash.jpg" alt="" style="width: 550px;" class="rounded-circle">
+            </div>
+            
+          <p class="fs-2">We are proud of our stuff.</p>
+          <img src="" alt="">
+
+        </div>
+    </div>
+
+    
+
+    <script src="script.js"></script>
   </body>
 </html>
