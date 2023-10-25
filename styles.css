@@ -97,3 +97,8 @@ h6 {
 .menu h1 {
   color: black;
 }
+
+/* Greyscale */
+.img-greyscale {
+  filter: grayscale(100%);
+}
